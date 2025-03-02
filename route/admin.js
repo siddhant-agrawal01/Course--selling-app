@@ -15,7 +15,7 @@ adminRouter.post('/signin',(req,res)=>{
     res.json({message:'create course page'})
  })
 
- adminRouter.get('/course',(req,res)=>{
+ adminRouter.get('/course/bulk',(req,res)=>{
     res.json({message:'create course page'})
  })
 
